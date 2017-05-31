@@ -86,6 +86,12 @@ a {
     width: 60px;
     height: auto;
 }
+
+/** these should be seperate media queries, one for 980px, 769px, and 640px.
+ * the "contact me" part should also go underneath the about me part 
+ * when the screen is resized.
+ * This can be done in the media queries using clearfix or other css solutions.
+ */
 @media screen and (max-width: 980px, 768px, 640) {
   /* The body's bg color will be #333 */
 
